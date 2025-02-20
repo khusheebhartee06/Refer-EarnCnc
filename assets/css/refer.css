@@ -515,6 +515,7 @@
   # max-width 992px
   --------------------------------------------------------------*/
 @media screen and (max-width:992px) {
+
     #apply #applyBox {
         margin-bottom: 10px;
     }
@@ -527,6 +528,11 @@
   # max-width 576px
   --------------------------------------------------------------*/
 @media screen and (max-width:576px) {
+    #banner{
+        background:url(../img/banner1.png) no-repeat scroll;
+        background-position: center;
+        height: 300px;
+    }
     #apply {
         padding: 80px 20px;
     }
